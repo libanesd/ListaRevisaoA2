@@ -1,0 +1,50 @@
+/**2. Desenhe no papel, os detalhes de uma lista encadeada simples com dois
+elementos que utilize a estrutura de dados da questão 1. Os dados para as duas
+pessoas são:
+|-----------|-------------------|-------------------|-------------------|
+|           |     Pessoa 1      |      Pessoa 2     |     Pessoa 3      | 
+|-----------|-------------------|-------------------|-------------------|
+| Código    |        001        |       002         |        004        | 
+|-----------|-------------------|-------------------|-------------------|
+| Nome      |      Pedro        |       João        |        Ana        | 
+|-----------|-------------------|-------------------|-------------------|
+| Sobrenome |      Silva        |      Gabriel      |      Schmidt      | 
+|-----------|-------------------|-------------------|-------------------|
+| Sexo      |     Masculino     |     Masculino     |     Feminino      | 
+|-----------|-------------------|-------------------|-------------------|
+| Endereço  |Av. Getúlio Vargas,| Rua da Laranjeira,|    Rua Coronel,   |
+|           |       311         |         15        |         333       |
+|-----------|-------------------|-------------------|-------------------|
+| Telefone  |   (24)9910-2541   |   (21)2233-4444   |   (24)2233-6294   |
+|-----------|-------------------|-------------------|-------------------|
+
+Depois, ilustre como a lista é armazenada na memória do computador.  **/
+
+
+#include <stdio.h>
+
+
+struct Pessoa{
+	int codigo;
+	char nome[20];
+	char sobrenome[20];
+	char sexo;
+	char endereço[100];
+	char telefone[20];
+	struct Pessoa *proximoPtr;
+}
+
+
+int main (void)
+{
+	  
+
+  return 0;
+
+
+
+
+}
+/**
+	==> 
+**/
